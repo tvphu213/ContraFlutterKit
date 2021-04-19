@@ -18,8 +18,8 @@ class AddAlarmPage extends StatefulWidget {
 }
 
 class _AddAlarmPageState extends State<AddAlarmPage> {
-  List<Alarm> list = List<Alarm>();
-  List<String> items = List<String>();
+  List<Alarm> list = <Alarm>[];
+  List<String> items = <String>[];
   bool isChanged = false;
 
   void onChanged(bool value) {
@@ -34,15 +34,15 @@ class _AddAlarmPageState extends State<AddAlarmPage> {
     items.add("T");
     items.add("S");
     items.add("T");
-    list.add(Alarm(time: "06:30", am_pm: "AM", datesList: items));
-    list.add(Alarm(time: "06:30", am_pm: "AM", datesList: items));
-    list.add(Alarm(time: "06:30", am_pm: "AM", datesList: items));
+    list.add(Alarm(time: "06:30", amPm: "AM", datesList: items));
+    list.add(Alarm(time: "06:30", amPm: "AM", datesList: items));
+    list.add(Alarm(time: "06:30", amPm: "AM", datesList: items));
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomPadding: false,
+      //resizeToAvoidBottomPadding: false,
       appBar: CustomAppBar(
         height: 120,
         child: Row(

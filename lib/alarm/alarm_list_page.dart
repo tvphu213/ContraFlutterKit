@@ -13,9 +13,9 @@ class AlarmListPage extends StatefulWidget {
 }
 
 class _AlarmListPageState extends State<AlarmListPage> {
-  List<Alarm> list = List<Alarm>();
-  List<String> items = List<String>();
-  List<String> items2 = List<String>();
+  List<Alarm> list = <Alarm>[];
+  List<String> items = <String>[];
+  List<String> items2 = <String>[];
 
   @override
   void initState() {
@@ -32,9 +32,9 @@ class _AlarmListPageState extends State<AlarmListPage> {
     items2.add("T");
     items2.add("F");
     items2.add("S");
-    list.add(Alarm(time: "06:30", am_pm: "AM", datesList: items));
-    list.add(Alarm(time: "10:30", am_pm: "AM", datesList: items));
-    list.add(Alarm(time: "11:30", am_pm: "AM", datesList: items2));
+    list.add(Alarm(time: "06:30", amPm: "AM", datesList: items));
+    list.add(Alarm(time: "10:30", amPm: "AM", datesList: items));
+    list.add(Alarm(time: "11:30", amPm: "AM", datesList: items2));
   }
 
   @override

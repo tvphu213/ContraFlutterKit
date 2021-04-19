@@ -14,8 +14,8 @@ class ColorsSelectWidget extends StatefulWidget {
 }
 
 class _ColorsSelectWidgetState extends State<ColorsSelectWidget> {
-  List<Color> options = List();
-  List<int> selectedChoices = List();
+  List<Color> options = <Color>[];
+  List<int> selectedChoices = <int>[];
 
   @override
   void initState() {

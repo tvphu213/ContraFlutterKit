@@ -13,8 +13,8 @@ class SizesSelectWidget extends StatefulWidget {
 }
 
 class _SizesSelectWidgetState extends State<SizesSelectWidget> {
-  List<String> options = List();
-  List<int> selectedChoices = List();
+  List<String> options = <String>[];
+  List<int> selectedChoices = <int>[];
 
   @override
   void initState() {

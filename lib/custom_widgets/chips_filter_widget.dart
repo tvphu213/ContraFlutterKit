@@ -13,8 +13,8 @@ class ChipsFilterWidget extends StatefulWidget {
 }
 
 class _ChipsFilterWidgetState extends State<ChipsFilterWidget> {
-  List<String> options = List();
-  List<int> selectedChoices = List();
+  List<String> options = <String>[];
+  List<int> selectedChoices = <int>[];
 
   @override
   void initState() {

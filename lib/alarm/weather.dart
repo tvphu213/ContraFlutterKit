@@ -5,7 +5,7 @@ class Weather {
   String city;
   String time;
   String image;
-  String am_pm;
+  String amPm;
 
   String degree;
   Color color;
@@ -13,7 +13,7 @@ class Weather {
   Weather(
       {this.country,
       this.city,
-      this.am_pm,
+      this.amPm,
       this.time,
       this.color,
       this.image,

@@ -6,8 +6,8 @@ import 'package:flutter/material.dart';
 import 'alarm_label.dart';
 
 class AlarmLabelWidget extends StatelessWidget {
-  AlarmLabel label;
-  VoidCallback onTap;
+  final AlarmLabel label;
+  final VoidCallback onTap;
 
   AlarmLabelWidget({this.label, this.onTap});
 

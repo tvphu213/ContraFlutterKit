@@ -12,7 +12,7 @@ import '../login/contra_text.dart';
 import 'line_chart.dart';
 
 class ChartsPage extends StatefulWidget {
-  bool isBarChart;
+  final bool isBarChart;
 
   ChartsPage({this.isBarChart});
 
@@ -21,7 +21,7 @@ class ChartsPage extends StatefulWidget {
 }
 
 class _ChartsPageState extends State<ChartsPage> {
-  List<Expense> expenses = List<Expense>();
+  List<Expense> expenses = <Expense>[];
 
   @override
   void initState() {

@@ -16,8 +16,8 @@ class PaymentPageTwo extends StatefulWidget {
 
 class _PaymentPageTwoState extends State<PaymentPageTwo>
     with SingleTickerProviderStateMixin {
-  List<PaymentType> types = List<PaymentType>();
-  List<String> list = List<String>();
+  List<PaymentType> types = <PaymentType>[];
+  List<String> list = <String>[];
   AnimationController controller;
   bool isVertical = true;
   bool isChecked = false;

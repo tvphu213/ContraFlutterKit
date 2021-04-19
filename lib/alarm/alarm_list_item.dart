@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'alarm.dart';
 
 class AlarmListItem extends StatefulWidget {
-  Alarm alarm;
+  final Alarm alarm;
 
   AlarmListItem({this.alarm});
 
@@ -14,7 +14,7 @@ class AlarmListItem extends StatefulWidget {
 }
 
 class _AlarmListItemState extends State<AlarmListItem> {
-  List<String> items = List<String>();
+  List<String> items = <String>[];
 
   @override
   void initState() {

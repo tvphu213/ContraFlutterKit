@@ -20,8 +20,8 @@ class ChatMessagesPage extends StatefulWidget {
 }
 
 class _ChatMessagesPageState extends State<ChatMessagesPage> {
-  List<Message> _items = List<Message>();
-
+  List<Message> _items = <Message>[];
+  
   @override
   void initState() {
     super.initState();

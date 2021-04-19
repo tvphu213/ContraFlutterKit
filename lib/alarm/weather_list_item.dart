@@ -44,7 +44,7 @@ class WeatherListItem extends StatelessWidget {
                   ),
                   ContraText(
                     color: wood_smoke,
-                    text: weather.time + weather.am_pm,
+                    text: weather.time + weather.amPm,
                     size: 13,
                     alignment: Alignment.centerLeft,
                     weight: FontWeight.bold,

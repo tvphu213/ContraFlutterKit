@@ -13,7 +13,7 @@ class WeatherListPage extends StatefulWidget {
 }
 
 class _WeatherListPageState extends State<WeatherListPage> {
-  List<Weather> clocks = List<Weather>();
+  List<Weather> clocks = <Weather>[];
 
   @override
   void initState() {
@@ -23,14 +23,14 @@ class _WeatherListPageState extends State<WeatherListPage> {
         city: "New Delhi",
         image: "assets/icons/ic_cloud_rain.svg",
         time: "06:30",
-        am_pm: "AM",
+        amPm: "AM",
         degree: "85",
         color: white));
     clocks.add(Weather(
         country: "China",
         city: "Wuhan",
         degree: "85",
-        am_pm: "AM",
+        amPm: "AM",
         image: "assets/icons/ic_cloud_rain.svg",
         time: "10:30",
         color: dandelion));
@@ -38,7 +38,7 @@ class _WeatherListPageState extends State<WeatherListPage> {
         country: "Pakistan",
         image: "assets/icons/ic_cloud_rain.svg",
         degree: "85",
-        am_pm: "AM",
+        amPm: "AM",
         city: "Karachi",
         time: "06:30",
         color: pastel_pink));
@@ -46,7 +46,7 @@ class _WeatherListPageState extends State<WeatherListPage> {
         country: "USA",
         image: "assets/icons/ic_cloud_rain.svg",
         degree: "85",
-        am_pm: "AM",
+        amPm: "AM",
         city: "Ohio",
         time: "06:30",
         color: flamingo));

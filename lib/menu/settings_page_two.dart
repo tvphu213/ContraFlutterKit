@@ -16,8 +16,8 @@ class _SettingsPageTwoState extends State<SettingsPageTwo> {
   SettingsCardDetail detailOne;
   SettingsCardDetail detailTwo;
 
-  List<SettingsCardItemDetail> detailsOne = List<SettingsCardItemDetail>();
-  List<SettingsCardItemDetail> detailsTwo = List<SettingsCardItemDetail>();
+  List<SettingsCardItemDetail> detailsOne = <SettingsCardItemDetail>[];
+  List<SettingsCardItemDetail> detailsTwo = <SettingsCardItemDetail>[];
 
   @override
   void initState() {

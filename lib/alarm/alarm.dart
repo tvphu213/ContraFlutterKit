@@ -1,7 +1,7 @@
 class Alarm {
   String time;
-  String am_pm;
+  String amPm;
   List<String> datesList;
 
-  Alarm({this.time, this.am_pm, this.datesList});
+  Alarm({this.time, this.amPm, this.datesList});
 }
